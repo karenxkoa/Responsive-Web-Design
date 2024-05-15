@@ -1,0 +1,57 @@
+*{
+    font-family: "Antic Didone", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #eef6f7;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px 100px 25px 100px;
+  }
+  
+  h1{
+    font-family: "Antic Didone", serif;
+    font-weight: 800;
+    text-align: center;
+  }
+  
+  main{
+    justify-content: center;
+    align-items: center;
+  }
+  
+  figure, #image, img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  figcaption, #img caption{
+    display: block;
+    position: relative;
+    margin: 30px;
+  }
+  
+  h2{
+    text-align: center;
+  }
+  
+  ul{
+    text-align: left;
+  }
+  
+  li{
+    font-weight: 600;
+    list-style-type: none;
+  }
+  
+  h4{
+    text-align: center; 
+  }  
