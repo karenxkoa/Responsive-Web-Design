@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Satisfaction Survey</title>
+  </head>
+<!-------------Aquí termina el header------------->
+  <body>
+    <h1 id="title">Satisfaction Survey<h1/>
+    <p id="description">Thanks for being part of the user tests for our application, please answer the following satisfaction survey.<p/>
+    <div class="survey">
+      <form method="post" id="survey-form">
+        <fieldset>
+          <label h2 id="name-label" placeholder="Please enter your name">Your name
+          <input id="name" type="text" required placeholder="Enter your name"/></label>
+          <label id="email-label">Please enter your e-mail<input id="email" type="email" required placeholder="Enter your email"/></label>
+          <label id="number-label">Your age<input id="number" type="number" min="15" max="60"placeholder="Insert your age"/></label>
+        </fieldset> 
+<!----------Sección nombre, edad y email---------->
+        <fieldset>
+
+        Tell us which testing team where you participating in:
+          <label for="">Select an option</label>
+          <select name="" id="dropdown">
+            <option value="">Please, select an option</option>
+            <option value="A">Teachers</option>
+            <option value="B">Parents</option>
+            <option value="C">Students</option>
+          </select>
+
+        Would you recommend our application to your friends?
+          <label for="opcion1">
+            <input id="opcion1" type="radio" name="recommendation" value="text" class="options">Yes, of course
+          </label>
+          <label for="opcion2">
+            <input id="opcion2" type="radio" name="recommendation" value="text" class="options">Not really
+          </label>
+          <label for="opcion3">
+            <input id="opcion3" type="radio" name="recommendation" value="text" class="options">I'm not sure
+          </label>
+        </fieldset>
+<!-----------Sección desplegable y radio---------->
+        <fieldset>
+        Please select all the features you liked of the application:
+          <label for="home-page">
+            <input id="home-page" type="checkbox" value="text" name="home-page" class="options">Home page
+          </label>
+          <label for="settings">
+            <input id="settings" type="checkbox"  value="text" name="settings" class="options">Settings page
+          </label>
+          <label for="icons">
+            <input id="icons" type="checkbox" value="text" name="icons" class="options">Iconography
+          </label>
+          <label for="accessibility">
+            <input id="accessibility" type="checkbox" value="text" name="accessibility" class="options">Accessibility options
+          </label>
+          <label for="statistics">
+            <input id="statistics" type="checkbox" value="text" name="statistics" class="options">Student statistics
+          </label>
+          <label for="activities">
+            <input id="activities" type="checkbox" value="text" name="activities" class="options">Activities section
+          </label>
+
+          <label for="comments">If you have any comments, please write them here.</label>
+        <textarea placeholder="Additional comments"></textarea>
+        <button id="submit" type="submit" value="Submit"/>Submit</button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
